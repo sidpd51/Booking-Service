@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 
-const { PORT,DB_SYNC } = require("./config/serverConfig");
+const { PORT, DB_SYNC } = require("./config/serverConfig");
 const apiRoutes = require("./routes/index");
 const db = require("./models/index");
 
